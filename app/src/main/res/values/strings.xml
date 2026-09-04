@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">YourApp</string>
+
+    <string name="example">Line 1\nLine 2</string>
+
+</resources>

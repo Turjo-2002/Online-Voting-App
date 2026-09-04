@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F0F2F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voter Login"
+        android:textSize="30sp"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/regVoterId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Voter ID Number"
+        android:inputType="number"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="25dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:backgroundTint="#3949AB"
+        app:cornerRadius="10dp" />
+
+    <!-- ✅ Fixed Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example Text"
+        android:layout_marginTop="15dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Create one"
+        android:layout_marginTop="25dp"
+        android:textColor="#3949AB"
+        android:textStyle="bold|italic"
+        android:padding="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android=
+    "http://schemas.android.com/apk/res/android">
+
+    <!-- Internet Permission -->
+    <uses-permission
+        android:name=
+            "android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineVotingSystem"
+        android:usesCleartextTraffic="true">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name=
+                        "android.intent.action.MAIN" />
+
+                <category
+                    android:name=
+                        "android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <!-- Login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- User Side -->
+        <activity
+            android:name=".ElectionAreaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".VoteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CandidateListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ResultListActivity"
+            android:exported="false" />
+
+        <!-- Admin -->
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+
+        <!-- NEW -->
+        <activity
+            android:name=".AdminResultPreviewActivity"
+            android:exported="false" />
+
+        <!-- Candidate CRUD -->
+        <activity
+            android:name=".AddCandidateActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".UpdateCandidateActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DeleteCandidateActivity"
+            android:exported="false" />
+
+        <!-- Voters -->
+        <activity
+            android:name=".ViewVotersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditVoterActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etCandidateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidate ID"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etCandidateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidate Name"/>
+
+    <EditText
+        android:id="@+id/etCandidateSymbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Symbol"/>
+
+    <EditText
+        android:id="@+id/etCandidateArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Election Area"/>
+
+    <Button
+        android:id="@+id/btnAddCandidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Candidate"/>
+</LinearLayout>
